@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: openrouter-backend
+    env: php
+    plan: free
+    startCommand: "php -S 0.0.0.0:10000"
